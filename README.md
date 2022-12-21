@@ -1,6 +1,6 @@
 # Twitter Sentiment Towards Family During the Holidays
 This is the implementation corresponding to a Twitter sentiment analysis. Two notebooks are included:
-- [train.ipynb](train.ipynb): Train an SVM classifier on the Tweeteval [[1]](#1) sentiment dataset (SentEval-2017 task 4 subtask A [[5]](#5). The SVM features are heavily inspired by [[4]](#4). Includes cross-validation, hyperparameter optimzalization, and ablation testing.
+- [train.ipynb](train.ipynb): Train an SVM classifier on the Tweeteval [[1]](#1) sentiment dataset (SemEval-2017 task 4 subtask A [[5]](#5). The SVM features are heavily inspired by [[4]](#4). Includes cross-validation, hyperparameter optimzalization, and ablation testing.
 - [experiment.ipynb](experiment.ipynb): Scrape Twitter for tweets about family, and classify them using the model trained in [train.ipynb](train.ipynb). Includes filtering, validation, and result figures & tables.
 
 ## Installation
